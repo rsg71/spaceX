@@ -7,8 +7,8 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "start-client": "cd client && npm run start",
-    "start-app": "concurrently \"npm run server\" \"npm run start-client\""
+    "start-frontend": "cd frontend && npm run start",
+    "start-app": "concurrently \"npm run server\" \"npm run start-frontend\""
   },
   "author": "Robert Greenawalt",
   "license": "MIT",
